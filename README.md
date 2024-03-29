@@ -19,9 +19,8 @@ A simple, text-based REPL (Read-Evaluate-Print Loop) application that connects t
 
 1. **Clone or download this repository.**
 2. **Set up your Gemini API key:**
-   * **Recommended:** Create an environment variable named `GEMINI_API_KEY` and store your API key as its value.
-   * **Alternative (less secure):** Create a file named `api_key.txt` in the project's root directory and place your API key inside. Ensure this file is *not* committed to version control.
-3. **Install the `google-generativeai` library in your Python environment:**  
+    Create a file named `api_key.txt` in the project's root directory and place your API key inside. Ensure this file is *not* committed to version control.
+4. **Install the `google-generativeai` library in your Python environment:**  
    `pip install google-generativeai`
    
 ## Running the Application
